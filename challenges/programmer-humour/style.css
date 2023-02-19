@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #6b34cb;
+}
+
+h1{
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 40%;
+    top: 30%;
+    color: white;
+    transform: rotate(-7deg);
+}
+
+div{
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 30%;
+    top: 40%;
+    transform: rotate(-7deg);
+}
