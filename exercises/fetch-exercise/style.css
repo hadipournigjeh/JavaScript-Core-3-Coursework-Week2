@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: #ffc7bc; */
+    background: rgb(255, 163, 153);
+}
+
+h1{
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 25%;
+    color: rgb(152, 21, 21);
+}
+
+#greeting-text{
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 47.5%;
+    width: 50vh;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
